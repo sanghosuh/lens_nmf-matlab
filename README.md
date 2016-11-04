@@ -28,7 +28,7 @@ This package includes two evaluation measures:
 * `Total document coverage`
 
 While one can see how it can be used from **main.m**, they have separate,simple usage example files, **example_pmi.m** and **example_total_doc_cvrg.m**.
-More details about them can be found [here](https://github.com/sanghosuh/lens_nmf-matlab/evaluation/).
+More details about them can be found [here](https://github.com/sanghosuh/lens_nmf-matlab/tree/master/evaluation).
 
 References
 --------
