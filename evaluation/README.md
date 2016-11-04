@@ -1,11 +1,11 @@
 # Evaluation Measures for Topic Modeling Algorithms
-============
+
 This package includes MATLAB implementations for two evaluation measures:
 
-* 'Topic coherence' (PMI)
-* 'Total document coverage'
+* `Topic coherence (PMI)`
+* `Total document coverage`
 
-## Topic Coherence
+Topic Coherence
 ----------------
 **pmi.m** is a program for calculating PMI within a topic or topics. When A is a nonnegative matrix,
 
@@ -22,7 +22,7 @@ The four parameters are mandatory, and the details are as follows.
 One usage example is provided in **example_pmi.m**.
 
 
-## Total Document Coverage
+Total Document Coverage
 ----------------
 **compute_total_doc_cvrg.m** is a program for calculating total document coverage for a topic or topics.
 
@@ -30,8 +30,8 @@ One usage example is provided in **example_pmi.m**.
 
 returns two values, which are as follows.
 
-* 'qualtopic' - Number of documents covered by each topic (1 x k) where k is number of topics
-* 'tot_covrg' - Total number of documents covered by k topics (1 x 1)
+* `qualtopic` - Number of documents covered by each topic (1 x k) where k is number of topics
+* `tot_cvrg` - Total number of documents covered by k topics (1 x 1)
 
 The three parameters are mandatory, and the details are as follows.
 
@@ -42,7 +42,7 @@ The three parameters are mandatory, and the details are as follows.
 One usage example is provided in **example_total_doc_cvrg.m**.
 
 
-## References
+References
 ----------
 1. J. Kim and H. Park. Sparse nonnegative matrix factorization for
    clustering. 2008.
