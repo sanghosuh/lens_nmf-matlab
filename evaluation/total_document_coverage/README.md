@@ -23,7 +23,7 @@ One usage example is provided in **example_total_doc_cvrg.m**.
 
 References
 ----------
-1. Sangho Suh, Jaegul Choo, Joonseok Lee and Chandan K. Reddy. L-EnsNMF: Boosted Local Topic Discovery via Ensemble of Nonnegative Matrix Factorization.
+1. Sangho Suh, Jaegul Choo, Joonseok Lee and Chandan K. Reddy. L-EnsNMF: Boosted Local Topic Discovery via Ensemble of Nonnegative Matrix Factorization. International Conference on Data Mining (ICDM), 2016.
 
 Feedback
 --------
