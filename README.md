@@ -1,37 +1,37 @@
 # Localized Ensemble of Nonnegative Matrix Factorization (L-EnsNMF) 
-============
+
 
 This package includes MATLAB implementations for L-EnsNMF as well as other state-of-the-art topic modeling methods.
 The methods are as follows. 
 
-* 'Standard NMF'
-* 'Sparse NMF' 
-* 'Orthogonal NMF'
-* 'LDA'
-* 'L-EnsNMF'
+* `Standard NMF`
+* `Sparse NMF`
+* `Orthogonal NMF`
+* `LDA`
+* `L-EnsNMF`
 
-## Experiment
+Experiment
 ---------------
 **main.m** is a program for running experiment(s) on dataset(s) using the above methods.
 The program returns topic keywords of each topic modeling method and evaluation results.
 Some of them are as follows.
 
-* 'Wtopk' - cell array (1 x mcnt) where mcnt is the number of methods
-* 'speed' - cell array (1 x mcnt) where mcnt is the number of methods
-* 'totcvrg_mat' - matrix (k x mcnt) where c1 is the number of keywords
+* `Wtopk` - cell array (1 x mcnt) where mcnt is number of methods
+* `speed` - cell array (1 x mcnt) where mcnt is number of methods
+* `totcvrg_mat` - matrix (k x mcnt) where k is number of keywords
 
-## Evaluation
----------------
+Evaluation
+--------
 This package includes two evaluation measures:
  
-* 'Topic coherence'
-* 'Total document coverage'
+* `Topic coherence`
+* `Total document coverage`
 
 While one can see how it can be used from **main.m**, they have separate,simple usage example files, **example_pmi.m** and **example_total_doc_cvrg.m**.
 More details about them can be found [here](https://github.com/sanghosuh/lens_nmf-matlab/evaluation/).
 
-## References
-----------
+References
+--------
 1.   Sangho Suh, Jaegul Choo, Joonseok Lee and Chandan K. Reddy. 
      L-EnsNMF: Boosted Local Topic Discovery via Ensemble of Nonnegative Matrix Factorization.
      International Conference on Data Mining(ICDM), 2016.
