@@ -21,7 +21,7 @@ One usage example is provided in **example_lens_nmf.m**.
 References
 ----------
 1. Sangho Suh, Jaegul Choo, Joonseok Lee and Chandan K. Reddy.
-   Boosted L-EnsNMF: Local Topic Discovery via Ensemble of Nonnegative Matrix Factorization.
+   L-EnsNMF: Boosted Local Topic Discovery via Ensemble of Nonnegative Matrix Factorization.
 
 2. Da Kuang Haesun Park.
    Fast Rank-2 Nonnegative Matrix Factorization for Hierarchical Document Clustering.
