@@ -24,7 +24,7 @@ One usage example is provided in **example_pmi.m**.
 
 Total Document Coverage
 ----------------
-**compute_total_doc_cvrg.m** is a program for calculating total document coverage for a topic or topics.
+**compute_total_doc_cvrg.m** is a program for calculating total document coverage of a topic or topics.
 
     compute_total_doc_cvrg(A, term_idx, min_nterm)
 
