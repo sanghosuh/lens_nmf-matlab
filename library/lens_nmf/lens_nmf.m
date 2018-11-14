@@ -24,7 +24,7 @@
 %        A : Input matrix 
 %        k : Number of topics
 %        topk : Number of keywords
-%        iter : Number of iterations
+%        total : Number of iterations
 %
 % <Outputs>
 %
@@ -35,7 +35,7 @@
 % 
 % <Usage Example> 
 %
-% [Ws, Hs, Drs, Dcs, As] = lens_nmf(A, k, topk, iter); 
+% [Ws, Hs, Drs, Dcs, As] = lens_nmf(A, k, topk, total); 
 
 function [Ws, Hs, Drs, Dcs, As] = lens_nmf(A, k, topk, total)
 
